@@ -1,0 +1,85 @@
+.body-content-rms {
+  display: flex;
+  height: 195px;
+  row-gap: 0px;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 32px;
+}
+
+.sub-content-rms {
+  display: flex;
+  flex-direction: column;
+}
+
+.indicators-title-rms {
+  width: 300px;
+  height: 16px;
+
+  font-family: 'RM Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  display: flex;
+  align-items: center;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+
+  /* grey/600 */
+  color: #82796e;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom: 4px;
+}
+
+.parameter-sub-content-title-rms-2 {
+  width: 170px;
+  height: 16px;
+
+  font-family: 'RM Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  display: flex;
+  align-items: center;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+
+  /* grey/600 */
+  color: #82796e;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px;
+}
+
+/* .ant-progress-inner{
+    display: none !important;
+  } */
+
+.ant-progress-inner {
+  width: 515px;
+  height: 24px;
+
+  /* ocean/200 */
+  background: #dddae9 !important;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.ant-progress-bg {
+  border-radius: 8px;
+  height: 24px !important;
+}

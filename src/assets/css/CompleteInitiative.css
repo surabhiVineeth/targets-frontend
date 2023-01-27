@@ -1,0 +1,262 @@
+.modal-ci {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content-ci {
+  display: flex;
+  flex-direction: column;
+  width: 1024px;
+  height: 484px;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(130, 121, 110, 0.2);
+  border-radius: 8px 8px 0px 0px;
+  z-index: 10;
+}
+
+.modal-header-ci {
+  /* Modal / Header */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1024px;
+  height: 96px;
+
+  /* White */
+
+  /* White */
+
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(130, 121, 110, 0.2);
+  border-radius: 8px 8px 0px 0px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom: 5px;
+  /* Inside auto layout */
+}
+.modal-title-ci {
+  width: 912px;
+  height: 32px;
+
+  font-family: 'Tobias';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  display: flex;
+  align-items: center;
+
+  /* Black */
+  color: #1a1a17;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  padding-left: 32px;
+}
+.modal-body-ci {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 0px;
+  width: 1024px;
+  height: 300px;
+
+  /* White */
+
+  background: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
+}
+
+.modal-body-content-ci {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  width: 1024px;
+  height: 228px;
+
+  background: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
+  row-gap: 0px;
+  margin-top: 36px;
+}
+
+.main-title-ci {
+  font-family: 'Tobias';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  text-align: center;
+
+  color: #000000;
+
+  /* Inside auto layout */
+}
+
+.content-ci {
+  width: 435px;
+  height: 24px;
+
+  font-family: 'RM Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  text-align: center;
+
+  color: #000000;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.sub-content-ci {
+  width: 624px;
+  height: 48px;
+
+  font-family: 'RM Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+
+  /* grey/600 */
+  color: #82796e;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.modal-footer-ci {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  /* padding: 16px; */
+  gap: 24px;
+
+  width: 1024px;
+  height: 88px;
+
+  /* White */
+
+  background: #ffffff;
+  box-shadow: 0px -2px 8px rgba(130, 121, 110, 0.2);
+  border-radius: 0px 0px 8px 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin-top: 5px;
+}
+
+.modal-footer-content-ci {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.transparent-button-ci {
+  width: 107px;
+  height: 24px;
+
+  font-family: 'RM Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  font-feature-settings: 'tnum' on, 'lnum' on;
+
+  /* forest/800 */
+  color: #1e4e49;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.bold-button-ci {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px 16px 16px;
+  gap: 10px;
+
+  width: 242px;
+  height: 56px;
+
+  /* forest/800 */
+  background: #1e4e49;
+  border-radius: 48px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-right: 16px;
+  margin-left: 24px;
+}
+
+.bold-button-content-ci {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bold-button-label-ci {
+  width: 168px;
+  height: 24px;
+
+  font-family: 'RM Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  font-feature-settings: 'tnum' on, 'lnum' on;
+
+  /* grey/100 */
+  color: #f9f5f1;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+}
+
+.check-circle {
+  font-size: 40px;
+  color: #f7f0e7;
+}

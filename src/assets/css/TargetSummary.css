@@ -1,0 +1,431 @@
+.target-summary {
+  display: flex;
+  box-sizing: border-box;
+  height: 474px;
+  width: 404px;
+
+  /* White */
+
+  background: #ffffff;
+  /* grey/300 */
+
+  border: 1px solid #e4dacd;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.row-content-ts {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.row-content-ts-3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.exclamation-ts {
+  color: #28716a;
+  mix-blend-mode: normal;
+  font-size: 24px;
+  margin-left: 5px;
+}
+
+.ts-heading {
+  height: 32px;
+
+  /* Headings/H2 - Tobias - 24px - Bold */
+
+  font-family: 'Tobias';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px;
+}
+
+.row-content-ts-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+
+.sub-row-content-1-ts {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-title-1-ts {
+  height: 16px;
+
+  /* RM neue/14px/regular
+
+used for graph elements
+*/
+  font-family: 'RM Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+
+  display: flex;
+  align-items: center;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+
+  /* grey/600 */
+
+  color: #82796e;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.line-break-ts,
+.line-break-ts-2 {
+  width: 356px;
+  height: 0px;
+
+  /* grey/300 */
+
+  border: 1px solid #e4dacd;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin-bottom: 32px;
+}
+
+.line-break-ts-2 {
+  margin-bottom: 24px;
+}
+
+.row-empty-box-ts,
+.row-empty-box-ts-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  /* gap: 16px; */
+
+  width: 356px;
+  height: 88px;
+
+  /* grey/50 */
+
+  background: #fcf9f6;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.row-empty-box-ts-2 {
+  gap: 16px;
+}
+
+.empty-content-1-ts {
+  width: 295px;
+  height: 16px;
+  left: 42px;
+  top: 251px;
+  margin-left: 16px;
+  /* grey/200 */
+
+  background: #f7f0e7;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+  z-index: 4;
+}
+
+.empty-content-2-ts,
+.empty-content-4-ts {
+  width: 126px;
+  height: 16px;
+  left: 42px;
+  top: 284px;
+  margin-left: 16px;
+  /* grey/200 */
+
+  background: #f7f0e7;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 5;
+  flex-grow: 0;
+  z-index: 5;
+}
+.empty-content-4-ts {
+  margin-left: 0px;
+}
+
+.empty-content-3-ts {
+  width: 223px;
+  height: 16px;
+  left: 24px;
+  top: 441px;
+
+  /* grey/200 */
+
+  background: #f7f0e7;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 6;
+  flex-grow: 0;
+  z-index: 6;
+}
+
+.button-ts {
+  /* RM neue/16px/bold
+
+Used for button labels
+*/
+  font-family: 'RM Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  font-feature-settings: 'tnum' on, 'lnum' on;
+
+  /* forest/800 */
+
+  color: #1e4e49;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.button-ts:hover {
+  background-color: white !important;
+  border-color: white !important;
+}
+
+.row-content-ts-1 {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  bottom: 20px;
+  right: 32px;
+}
+
+.editIcon {
+  color: #1e4e49;
+}
+
+.main-title-ts {
+  height: 16px;
+
+  font-family: 'RM Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+
+  display: flex;
+  align-items: center;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+
+  /* forest/900 */
+
+  color: #102c29;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-left: 16px;
+}
+
+.block-title-1-ts {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px 8px;
+  gap: 10px;
+
+  height: 26px;
+
+  /* grey/100 */
+
+  background: #f9f5f1;
+  /* grey/400 */
+
+  border: 2px solid #c7bcae;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-left: 16px;
+}
+
+.target-text-ts {
+  font-family: 'RM Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+
+  /* grey/700 */
+
+  color: #5e5850;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.sub-content-ts-1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.date-ts {
+  font-family: 'RM Neue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px;
+}
+
+.warning-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.warning-sub-class-1 {
+  display: flex;
+  flex: 1;
+  margin-top: 5px;
+  justify-content: center;
+}
+
+.warning-sub-class-2 {
+  display: flex;
+  flex: 9;
+}
+
+.warning-text {
+  font-family: 'RM Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 129% */
+
+  display: flex;
+  align-items: center;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+
+  /* grey/600 */
+
+  color: #82796e;
+
+  margin: 0px;
+  /* Inside auto layout */
+}
+
+.list-ts-2 {
+  width: 106px;
+  height: 18px;
+
+  font-family: 'RM Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  display: flex;
+  align-items: center;
+  text-decoration-line: underline;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+
+  /* forest/800 */
+
+  color: #1e4e49;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.list-wrapper-ts-2 {
+  padding-left: 0px;
+  list-style-type: none;
+}
